@@ -43562,7 +43562,7 @@ let Dx = (() => {
             ["src", "assets/img/6PGAvatarTransparent.svg", "alt", "6PG Discord Bot", 1, "float", "robot"],
             [1, "lead"],
             [1, "my-2"],
-            ["routerLink", "/", 1, 'btn href="https://www.google.com.tr/"', "btn-primary"],
+            ["src", "https://www.google.com.tr/", 1, "btn", "btn-primary"],
             ["routerLink", "/docs/changelog", 1, "float-right"]
         ],
         template: function(t, e) {
@@ -47513,7 +47513,7 @@ let VS = (() => {
             [3, "src", "alt"],
             [1, "bot-seperator"],
             [4, "ngFor", "ngForOf"],
-            ["routerLink", "/add-bot", "matTooltip", "Add a Bot", 1, "bot-icon", "invite"],
+            ["routerLink", "/add-bot", "matTooltip", "Bot Ekle", 1, "bot-icon", "Davet"],
             [1, "add-bot", "pt-0", "d-flex", "justify-content-center", "flex-column"],
             [1, "options"],
             [1, "toggle"],
