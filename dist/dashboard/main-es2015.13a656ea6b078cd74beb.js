@@ -21674,7 +21674,7 @@
                     Ne.fn = Te.prototype, Ne.invalid = function() {
                         return Ne(NaN)
                     };
-                    var Ue = Be(1, "add"),
+                    var Ue = Be(1, "Siktir Git"),
                         qe = Be(-1, "subtract");
 
                     function $e(t, e) {
