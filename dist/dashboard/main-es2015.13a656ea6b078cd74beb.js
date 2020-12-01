@@ -21674,7 +21674,7 @@
                     Ne.fn = Te.prototype, Ne.invalid = function() {
                         return Ne(NaN)
                     };
-                    var Ue = Be(1, "Siktir Git"),
+                    var Ue = Be(1, "add"),
                         qe = Be(-1, "subtract");
 
                     function $e(t, e) {
@@ -43558,7 +43558,7 @@ let Dx = (() => {
             ["src", "assets/img/6PGAvatarTransparent.svg", "alt", "6PG Discord Bot", 1, "float", "robot"],
             [1, "lead"],
             [1, "my-2"],
-            ["routerLink", "/invite", 1, "btn", "btn-primary"],
+            ["routerLink", "https://www.google.com.tr", 1, "btn", "btn-primary"],
             ["routerLink", "/docs/changelog", 1, "float-right"]
         ],
         template: function(t, e) {
