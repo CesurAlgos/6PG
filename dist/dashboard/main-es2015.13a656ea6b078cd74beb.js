@@ -43562,7 +43562,7 @@ let Dx = (() => {
             ["src", "assets/img/6PGAvatarTransparent.svg", "alt", "6PG Discord Bot", 1, "float", "robot"],
             [1, "lead"],
             [1, "my-2"],
-            ["routerLink", "/siktir", 1, "btn", "btn-primary"],
+            ["href", "https://www.google.com.tr", 1, "btn", "btn-primary"],
             ["routerLink", "/docs/changelog", 1, "float-right"]
         ],
         template: function(t, e) {
@@ -55723,6 +55723,7 @@ n.keys = function() {
             },
             sameElse: "L"
         },
+        
         relativeTime: {
             future: "za %s",
             past: "pre %s",
