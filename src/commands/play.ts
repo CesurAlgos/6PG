@@ -23,10 +23,10 @@ export default class PlayCommand implements Command {
 
         const maxQueueSize = 5;
         if (player.q.length >= maxQueueSize)
-            throw new TypeError(`Max queue size of \`${maxQueueSize}\` reached.`);
+            throw new TypeError(`Maximum liste uzunluğu \`${maxQueueSize}\`.`);
 
         const track = await player.play(query);
         if (player.isPlaying)
-            return ctx.channel.send(`**Added**: \`${track.title}\` to list.`);
+            return ctx.channel.send(`**Listeye Eklendi**: \`${track.title}\`.`);
     }
 }
