@@ -5,7 +5,7 @@ import { Track } from '@2pg/music';
 
 export default class ListCommand implements Command {
     aliases = ['q'];
-    name = 'list';
+    name = 'liste';
     summary = 'Display the current track list.';
     precondition: Permission = 'SPEAK';
     cooldown = 3;
@@ -20,10 +20,10 @@ export default class ListCommand implements Command {
         for (let i = 0; i < player.q.length; i++) {            
             const track: Track = player.q.items[i];
             const prefix = (i === 0)
-                ? `**Now Playing**:`
+                ? `**Şuanda Çalan**:`
                 : `**[${i + 1}]**`;
             details += `${prefix} \`${track.title}\` \`${this.music.getDuration(player, track)}\`\n`;
         }
-        return ctx.channel.send(details || 'No tracks in list.');
+        return ctx.channel.send(details || 'Listede Şarkı Yok.');
     }
 }

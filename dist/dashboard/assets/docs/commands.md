@@ -1,19 +1,17 @@
-# Commands
+# Komutlar
 
 ---
 
-## Cooldowns
-Some commands have cooldowns which limit spam.
-When a command is in cooldown, its execution is ignored.
+## Soğuma Süresi
+Komutu Arka Arkaya kullanma sınırı
 
 ---
 
-## Configs
-Customize existing commands, to your own preferences.
+## Ayarlar
+Komutu Özelleitirin
 
-### Name
-The name of the command.
+### İsim
+Komut İsmi
 
-### Enabled `true`
-Whether the command can be executed.
-When a command is disabled, 3PG will respond with an error message.
+### Aktiflik `Aktif`
+Komutun Aktif olup olmadığını Belirler

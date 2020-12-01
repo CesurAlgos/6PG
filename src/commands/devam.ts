@@ -3,7 +3,7 @@ import Deps from '../utils/deps';
 import Music from '../modules/music/music';
 
 export default class ResumeCommand implements Command {
-    name = 'resume';
+    name = 'devam';
     summary = 'Resume playing a track if paused.';
     precondition: Permission = 'SPEAK';
     module = 'Music';

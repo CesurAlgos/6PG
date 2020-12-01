@@ -1,7 +1,7 @@
 import { Command, CommandContext, Permission } from './command';
 
 export default class HelpCommand implements Command {
-    name = 'help';
+    name = 'yardım';
     summary = 'Send help...';
     precondition: Permission = '';
     cooldown = 3;

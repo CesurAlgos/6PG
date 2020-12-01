@@ -4,7 +4,7 @@ import Deps from '../utils/deps';
 import CommandUtils from '../utils/command-utils';
 
 export default class WarnCommand implements Command {
-    name = 'warn';
+    name = 'uyarı';
     summary = 'Warn a user and add a warning to their account.';
     precondition: Permission = 'KICK_MEMBERS';
     cooldown = 5;
