@@ -3,7 +3,7 @@ import Deps from '../utils/deps';
 import Music from '../modules/music/music';
 
 export default class SkipCommand implements Command {
-    name = 'skip';
+    name = 'geç';
     summary = 'Skip current playing track';
     precondition: Permission = 'SPEAK';
     cooldown = 5;

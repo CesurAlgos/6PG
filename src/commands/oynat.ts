@@ -7,7 +7,7 @@ export default class PlayCommand implements Command {
     aliases = ['p'];
     cooldown = 2;
     module = 'Music';
-    name = 'play';
+    name = 'oynat';
     precondition: Permission = 'SPEAK';
     summary = 'Join and play a YouTube result.';
     usage = 'play query'

@@ -4,7 +4,7 @@ import Music from '../modules/music/music';
 
 export default class StopCommand implements Command {
     aliases = ['leave'];
-    name = 'stop';
+    name = 'dur';
     summary = 'Stop playback, clear list, and leave channel';
     precondition: Permission = 'SPEAK';
     cooldown = 5;
