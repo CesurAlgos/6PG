@@ -43559,10 +43559,10 @@ let Dx = (() => {
         consts: [
             [1, "container"],
             [1, "jumbotron"],
-            ["src", "assets/img/6PGAvatarTransparent.svg", "alt", "Nagini Discord Bot", 1, "float", "robot"],
+            ["src", "assets/img/6PGAvatarTransparent.svg", "alt", "6PG Discord Bot", 1, "float", "robot"],
             [1, "lead"],
             [1, "my-2"],
-            [sa("href", e.Siktirurl, Xi), 1, "btn", "btn-primary"],
+            ["routerLink", "https://www.google.com.tr", 1, "btn", "btn-primary"],
             ["routerLink", "/docs/changelog", 1, "float-right"]
         ],
         template: function(t, e) {
