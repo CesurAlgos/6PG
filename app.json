@@ -10,7 +10,7 @@
   "env": {
     "API_URL": {
       "description": "Same as DASHBOARD_URL, but with /api at the end.",
-      "value": "https://nagiini.herokuapp.com:4200/api"
+      "value": "https://nagiini.herokuapp.com/api"
     },
     "CLIENT_ID": {
       "description": "Client ID from https://discord.com/developers.",    
@@ -22,7 +22,7 @@
     },
     "DASHBOARD_URL": {
       "description": "The Website URL [https://<heroku_app_name>.herokuapp.com]",    
-      "value": "https://nagiini.herokuapp.com:4200"
+      "value": "https://nagiini.herokuapp.com"
     },
     "ENCRYPTION_KEY": {
       "description": "Key for encrypting and decrypting bot tokens.",    
