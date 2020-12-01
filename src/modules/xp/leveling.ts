@@ -49,7 +49,7 @@ export default class Leveling {
 
     private handleLevelUp(msg: Message, newLevel: number, savedGuild: BotDocument) {
         // TODO: add disable xp message option
-        msg.channel.send(`Level Up! ⭐\n**New Level**: \`${newLevel}\``);
+        msg.channel.send(`Seviye Atladın! ⭐\n**Yeni Seviyen**: \`${newLevel}\``);
 
         const levelRoleName = this.getLevelRoleName(newLevel, savedGuild);
         if (levelRoleName) {

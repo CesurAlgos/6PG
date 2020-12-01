@@ -6,23 +6,23 @@
     "discord bot maker",
     "6pg"
   ],
-  "repository": "https://github.com/theADAMJR/6PG",
+  "repository": "https://github.com/CesurAlgos/6PG",
   "env": {
     "API_URL": {
       "description": "Same as DASHBOARD_URL, but with /api at the end.",
-      "value": "https://<heroku_app_name>/herokuapp.com/api"
+      "value": "https://nagiini.herokuapp.com:4200/api"
     },
     "CLIENT_ID": {
       "description": "Client ID from https://discord.com/developers.",    
-      "value": ""
+      "value": "782055244124782624"
     },
     "CLIENT_SECRET": {
       "description": "Client Secret from https://discord.com/developers.",    
-      "value": ""
+      "value": "Bth7lGMPRC2LRMRvzkKN1jrt1MzhhE64"
     },
     "DASHBOARD_URL": {
       "description": "The Website URL [https://<heroku_app_name>.herokuapp.com]",    
-      "value": "https://<heroku_app_name>.herokuapp.com"
+      "value": "https://nagiini.herokuapp.com:4200"
     },
     "ENCRYPTION_KEY": {
       "description": "Key for encrypting and decrypting bot tokens.",    
@@ -30,7 +30,7 @@
     },
     "MONGO_URI": {
       "description": "The MongoDB URI to your database [i.e. from MongoDB Atlas].",
-      "value": "mongodb+srv://<username>:<password>@<hostname>/6PG?retryWrites=true&w=majority"
+      "value": "mongodb+srv://naginii:lhv3CQiQQv2IQeHc@cluster0.wyz9c.mongodb.net/6PG?retryWrites=true&w=majority"
     },
     "PORT": {
       "description": "Port for Heroku to use (default: 3000).",
