@@ -90,10 +90,10 @@ export class XPCardGenerator extends ImageGenerator {
             ctx.measureText(xp.toString()).width, canvas.height / 1.175);
 
         ctx.fillStyle = card.primary || this.defaultColors.primary;
-        ctx.fillText(`${nextLevelXP}XP`, canvas.width / 2.5 + 
+        ctx.fillText(`${nextLevelXP}Tecrübe`, canvas.width / 2.5 + 
             ctx.measureText(`${xp}/`).width, canvas.height / 1.175);
         
         ctx.fillStyle = card.primary || this.defaultColors.primary;
-        ctx.fillText(`LEVEL ${level}`, canvas.width / 2.5, canvas.height / 1.35);
+        ctx.fillText(`Seviye ${level}`, canvas.width / 2.5, canvas.height / 1.35);
     }
 }
