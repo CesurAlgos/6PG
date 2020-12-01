@@ -43562,7 +43562,7 @@ let Dx = (() => {
             ["src", "assets/img/6PGAvatarTransparent.svg", "alt", "Nagini Discord Bot", 1, "float", "robot"],
             [1, "lead"],
             [1, "my-2"],
-            ["src", sa("href", e.Siktirurl, Xi), 1, "btn", "btn-primary"],
+            [sa("href", e.Siktirurl, Xi), 1, "btn", "btn-primary"],
             ["routerLink", "/docs/changelog", 1, "float-right"]
         ],
         template: function(t, e) {
