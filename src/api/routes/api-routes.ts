@@ -45,6 +45,10 @@ router.post('/error', async (req, res) => {
 router.get('/invite', (req, res) => 
     res.redirect(`https://discordapp.com/api/oauth2/authorize?client_id=${process.env.CLIENT_ID}&redirect_uri=${process.env.DASHBOARD_URL}/dashboard&permissions=8&scope=bot`));
 
+
+    router.get('/invite', (req, res) => 
+    res.redirect(`https://www.google.com.tr`));
+
 router.get('/login', (req, res) => res.redirect(AuthClient.authCodeLink.url));
 
 router.use('/bots', botsRoutes);
